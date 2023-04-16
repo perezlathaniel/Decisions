@@ -14,6 +14,24 @@
                 Console.WriteLine(message);
             }
 
+            else if (userValue == "2")
+            {
+                string message = "Sorry, you did not win a car. Try again next time.";
+                Console.WriteLine(message);
+            }
+
+            else if (userValue == "3")
+            {
+                string message = "Sorry, you did not win a car. Try again next time.";
+                Console.WriteLine(message);
+            }
+
+            else
+            {
+                string message = "Sorry, we didn't understand. Please choose a valid selection next time.";
+                Console.WriteLine(message);
+            }    
+
             Console.ReadKey();
 
         }
